@@ -5,11 +5,11 @@
 
 extraEnvVars: |
   - name: MOSIP_ESIGNET_HOST
-    value: http://34.35.41.42
+    value: http://34.35.69.91
   - name: MOSIP_ESIGNET_DISCOVERY_ISSUER_ID
-    value: http://34.35.41.42
+    value: http://34.35.69.91
   - name: MOSIP_ESIGNET_TOKEN_ENDPOINT
-    value: http://34.35.41.42:8080/oauth/token
+    value: http://34.35.69.91:8080/oauth/token
   - name: KEYCLOAK_EXTERNAL_URL
     valueFrom:
       configMapKeyRef:
