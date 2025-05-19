@@ -1,10 +1,13 @@
 extraEnvVars: |
   - name: MOSIP_ESIGNET_HOST
-    value: http://34.35.69.91
+    # value: http://34.35.69.91
+    value: http://securemomo.ddns.net
   - name: MOSIP_ESIGNET_DISCOVERY_ISSUER_ID
-    value: http://34.35.69.91
+    # value: http://34.35.69.91
+    value: http://securemomo.ddns.net
   - name: MOSIP_ESIGNET_TOKEN_ENDPOINT
-    value: http://34.35.69.91/oauth/token
+    # value: http://34.35.69.91/oauth/token
+    value: http://securemomo.ddns.net
   - name: KEYCLOAK_EXTERNAL_URL
     valueFrom:
       configMapKeyRef:
