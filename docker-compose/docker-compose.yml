@@ -48,9 +48,9 @@ services:
       - SPRING_CACHE_TYPE=redis
       - SPRING_REDIS_HOST=redis-server
       - SPRING_REDIS_PASSWORD=
-      - MOSIP_ESIGNET_HOST=http://34.35.69.91:8088
-      - MOSIP_ESIGNET_DISCOVERY_ISSUER_ID=http://34.35.69.91:8088
-      - MOSIP_ESIGNET_TOKEN_ENDPOINT=http://34.35.69.91:8088/v1/esignet/oauth/v2/token
+      - MOSIP_ESIGNET_HOST=http://34.30.20.64:8088
+      - MOSIP_ESIGNET_DISCOVERY_ISSUER_ID=http://34.30.20.64:8088
+      - MOSIP_ESIGNET_TOKEN_ENDPOINT=http://34.30.20.64:8088/v1/esignet/oauth/v2/token
 
     depends_on:
       - database
