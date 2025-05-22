@@ -4,7 +4,8 @@ extraEnvVars: |
   - name: MOSIP_ESIGNET_DISCOVERY_ISSUER_ID
     value: http://myidmw.ddns.net
   - name: MOSIP_ESIGNET_TOKEN_ENDPOINT
-    value: http://myidmw.ddns.net/oauth/token
+    #value: http://myidmw.ddns.net/oauth/token
+    value: http://myidmw.ddns.net:8088/v1/esignet/oauth/v2/token
   - name: KEYCLOAK_EXTERNAL_URL
     valueFrom:
       configMapKeyRef:
